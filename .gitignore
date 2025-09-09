@@ -1,0 +1,65 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# --------------------
+# Virtual Environment (현재 opencv 폴더 안에 있음)
+bin/
+lib/
+include/
+etc/
+share/
+pyvenv.cfg
+
+# --------------------
+# IDE / Editor
+.vscode/
+.idea/
+
+# --------------------
+# OS
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Logs & Temp
+*.log
+*.tmp
+*.swp
+
+# --------------------
+# 영상처리 프로젝트 특화
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+
+data/
+datasets/
+inputs/
+outputs/
+results/
+
+# 모델 가중치
+*.h5
+*.ckpt
+*.pth
+*.pt
+checkpoints/
+models/
